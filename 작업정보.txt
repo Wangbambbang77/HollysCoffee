@@ -1,0 +1,18 @@
+Main-color #b51212b
+
+Header : 100% * 44px, Background : main-color
+Btn-join : 80 * 24, #ccaa88, Noto_Sans_KR, Regular, 12px, #ffffff
+	로고와 메뉴전환 아이콘(햄버거)는 스마트 오브젝트 - 일러스트 - svg로 저장 (연결프로그램 : 일러스트)
+
+Slider : noto_sans_KR, med, 14px, #ffffff
+Slider-point : 12*12, maincolor, #bdbdbd
+
+icons : Roboto, Light, 11, #333333
+	Smart layer (일러에서 열리면 sgv형식으로 저장!)
+
+banner :Noto Sans KR, Bold 16 #ffffff / Light 12
+
+notie : Roboto, Bold, 14px, #333333 
+
+more : Roboto, Regular, 10px, #b5121b
+
