@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollys</title>
+    <link rel="shortcut icon" href="./Hollys Logo.png" type="image/x-icon">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+    #header{
+        width:100%;
+        height:24px;
+        background-color:#b5121b;
+        padding:10px;
+    }
+    #btn-join{
+        width:80px;
+        height:21.5px;
+        padding-top:2.5px;
+        background: #ccaa88;
+        border-radius: 12px;
+        font-size: 12px;
+        font-family:'Noto_Sans_KR';
+        font-weight: 400px;
+        color: #ffffff;
+        text-align: center;
+    }
+    #main-tit{
+        width:87px;
+        position:absolute;
+        left:137px;
+        top:13px;
+    }
+    #btn-nav{
+        width:22px;
+        position:absolute;
+        top:14px;
+        right:10px;
+    }
+    #sliders {
+        height:434px;
+    }
+    #sliders p{
+            font-family:'Noto Sans KR';
+            font-weight:500;
+            font-size:14px;
+            color:#ffffff;
+            /* 나중에 검정색 지울것 */
+            /* color:#000000; */
+        }
+    .slider{
+            position:absolute;
+            left:0;
+            top:44px;
+            display:none;
+        }
+    #slider01{
+           display:block;
+        }
+
+    #slider01 p:first-of-type{
+            position:absolute;
+            left:55px;
+            top:335px;
+        }
+    #slider01 p:last-of-type{
+            position:absolute;
+            left:198px;
+            top:378px;
+        }
+    #points{
+            position:absolute;
+            left:121px;
+            top:449px;
+        }
+    .dot{
+            width:12px;
+            height:12px;
+            margin-left:4px;
+            margin-right:4px;
+            border-radius:6px;
+            background-color:#dbdbdb;
+            display:inline-block;
+        }
+    #first-dot{
+            background-color:#b5121b;
+            }
+    #icons{
+            padding:16px 10px 18px 10px;
+        }
+    .icon{
+            width:75px;
+            display:inline-block;
+            /* 나중에 지울거 */
+            /* background-color:#999999; */
+        }
+    .img-box{
+            width:45px;
+            margin:0 auto 0 auto;
+        }
+    .icon p{
+            font-family:'Roboto';
+            font-weight:200;
+            font-size:11px;
+            color:#333333;
+            text-align:center;
+        }
+    .banner{
+        position:relative;
+    }
+    .bn-tit{
+        position: absolute;
+        left:10px;
+        top:10px;
+        font-family:'Noto sans KR';
+        font-weight:700px;
+        font-size:16px;
+        color:#ffffff;
+    }
+    .bn-txt{
+        position: absolute;
+        left:10px;
+        top:38px;
+        font-family:'Noto sans KR';
+        font-weight:300px;
+        font-size:12px;
+        color:#ffffff;
+    }
+    #banner04 .bn-tit,#banner04 .bn-txt{
+        color:#333333;
+    }
+    #notice{
+        padding:10px 10px 18px 10px;
+    }
+    #no-tit-more h3,#no-tit-more p,#no-list p{
+        display:inline-block;
+    }
+    #no-tit-more h3{
+        font-family:Roboto;
+        font-weight:700px;
+        font-size: 14px;
+        color: #333333;
+    }
+    #no-tit-more p{
+        font-family: Roboto;
+        font-weight:500;
+        font-size: 11px;
+        color: #b5121b;
+    }
+    #no-list{
+        font-family:'Noto sans KR';
+        font-weight:400;
+        font-size: 12px;
+        color: #666666;
+    }
+    .ali-r{
+        float:right;
+    }
+        </style>
+</head>
+<body>
+
+    <div id="header" >
+        <div id="btn-join">가맹문의
+        </div>
+        <div id="main-tit">
+            <img src="./images/main_tit.svg" alt="Hollys";>
+        </div>
+        <div id="btn-nav">
+            <!-- 다음은 일러스트를 활용해서 svg파일을 끌어다 쓴 것 -->
+            <img src="./images/btn-nav.svg" alt="Menu" >
+            </div>
+        <!-- 다음은 햄버거를 코딩으로 만든 것 -->
+        <!-- <div style="
+            width:22px;
+            height: 4px;
+            margin-bottom: 3px;
+            background-color: #ffffff;
+        ">
+            1
+        </div>
+        <div style="
+        width:22px;
+        height: 4px;
+        margin-bottom: 3px;
+        background-color: #ffffff;
+        ">
+        1
+        </div>
+        <div style="
+        width:22px;
+        height: 4px;
+        background-color: #ffffff;
+        ">
+            1
+        </div> -->
+    </div>
+    <div id="contents">
+        <div id="sliders">
+            <div id="slider01" class="slider">
+                <img src="./images/slider_01.jpg" alt="신제품 딸기초코">
+                <p>딸기 초코 &nbsp; 쏘스윗박스</p>
+                <p>딸기 초코케익 할리치노</p>
+            </div>
+            <div id="slider02" class="slider">
+                <img src="./images/slider_02.jpg" alt="딸기 바나나,라떼">
+                <p>딸기 바나나<br>스무디</p>
+                <p>딸기 듬뿍 라떼</p>
+            </div>
+            <div id="slider03" class="slider">
+                <img src="./images/slider_03.jpg" alt="딸기 바나나,라떼">
+                <p>딸기 요거트 마카롱</p>
+                <p>딸기 초코 가토</p>
+            </div>
+            <div id="slider04" class="slider">
+                <img src="./images/slider_04.jpg" alt="딸기 바나나,라떼">
+                <p>딸기 치즈케익 할리치노</p>
+            </div>
+            <div id="slider05" class="slider">
+                <img src="./images/slider_05.jpg" alt="딸기 바나나,라떼">
+                <p>샤이닝 윈터 케이크</p>
+                <p>39,000</p>
+            </div>
+            <div id="points">
+                <div class="dot" id="first-dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                
+            </div>
+        </div>
+        <div id="icons">
+            <div class="icon" id="icon01">
+                <div class="img-box">
+                    <img src="./images/icon 01.svg" alt="Hollys Mall">
+                </div>
+                <p>Hollys Mall</p>
+            </div>
+            <div class="icon" id="icon02">
+                <div class="img-box">
+                    <img src="./images/icon 02.svg" alt="Menu">
+                </div>
+                <p>Menu</p>
+            </div>
+            <div class="icon" id="icon03">
+                <div class="img-box">
+                    <img src="./images/icon 03.svg" alt="Store">
+                </div>
+                <p>Store</p>
+            </div>
+            <div class="icon" id="icon04">
+                <div class="img-box">
+                    <img src="./images/icon 04.svg" alt="Membership">
+                </div>
+                <p>Membership</p>
+            </div>
+        </div>
+        <div id="banner">
+            <div class="banner" id="banner01">
+                <div class="bn-img">
+                    <img src="./images/Banner_01.jpg" alt="Hollys Membership">
+                    <h2 class="bn-tit">할리스 멤버십</h2>
+                    <p class="bn-txt">할리스 멤버십 ‘CROWN’으로<br>다양한 혜택을 블겨보세요~!</p>
+                </div>
+            </div>
+            <div class="banner" id="banner02">
+                <div class="bn-img">
+                    <img src="./images/Banner_02.jpg" alt="Hollys Membership">
+                <h2 class="bn-tit">할리스카드</h2>
+                <p class="bn-txt">할리스카드로 쉽고 간편하게<br>사람들에게 마음을 전하세요.</p>
+                </div>
+            </div>
+            <div class="banner" id="banner03">
+                <div class="bn-img">
+                    <img src="./images/Banner_03.jpg" alt="Hollys Membership">
+                <h2 class="bn-tit">Hollys B2B</h2>
+                <p class="bn-txt">할리스 F&B의 20년의<br>커피 노하우를 기반으로 한<br>할리스 B2B 사업을 소개합니다.</p>
+                </div>
+            </div>
+            <div class="banner" id="banner04">
+                <div class="bn-img">
+                    <img src="./images/Banner_04.jpg" alt="Hollys Membership">
+                <h2 class="bn-tit">가맹문의</h2>
+                <p class="bn-txt">할리스와 함께 성장하실<br>점주님을 모십니다.</p>
+                </div>
+                </div>
+            <div class="banner" id="banner05">
+                <div class="bn-img">
+                    <img src="./images/Banner_05.jpg" alt="Hollys Membership">
+                <h2 class="bn-tit">창업설명회</h2>
+                <p class="bn-txt">할리스 브랜드 소개와<br>가맹점 창업 안내 및 상담을<br>도와드립니다.</p>
+                </div>
+            </div>
+        </div>
+        <div id="notice"></div>
+        </div>
+    <div id="notice">
+        <div id="no-tit-more">
+            <h3>Notice</h3>
+            <p class="ali-r">more</p>
+        </div>
+        <div id="no-list">
+            <p>[제휴 안내] 2023 LG유프러스’라이프콕...</p>
+            <p class="ali-r">2023-01-27</p>
+        </div>
+    </div>
+    <div id="footer">footer</div>
+</body>
+</html>
